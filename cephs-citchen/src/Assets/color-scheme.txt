@@ -8,10 +8,10 @@ Nav Gradient
 #442e21 - Wood Brown
 
 App Background *Proposed
-#867764 (partially transparent) - Stone Gray
+#6d6050 (partially transparent) - Stone Brown
 
 App Background Alternative *Proposed
-#442e21
+#4c4a4f - Modified Stone Grey
 
 Button Fill *Proposed
 #ffebbc - Lamp Light
