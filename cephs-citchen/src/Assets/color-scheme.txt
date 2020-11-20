@@ -1,0 +1,25 @@
+Header Text
+#7d1009 - Headband Red
+
+Nav Links
+#f97b0d - Carrot Orange
+
+Nav Gradient
+#442e21 - Wood Brown
+
+App Background *Proposed
+#867764 (partially transparent) - Stone Gray
+
+App Background Alternative *Proposed
+#442e21
+
+Button Fill *Proposed
+#ffebbc - Lamp Light
+
+Button Text Color *Proposed
+#7d1009 - Headband Red
+
+Button Border Color *Proposed
+#feaf00 - Fire Orange
+    --Border Radius 10px
+    --Border width 2px
