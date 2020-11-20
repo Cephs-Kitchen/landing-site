@@ -19,7 +19,7 @@ html, body{
     top: 5vh;
     font-size: calc(15px + 1.5vw);
     transform: translate(-50%,0%);
-    color: #7d1009;
+    color: #ac190e;
     /* text-shadow: 0 0 20px #ffebbc; */
     background: radial-gradient(closest-side, rgba(255,255,255,1), rgba(0,0,0,0));
     min-width: 75%;
@@ -34,7 +34,7 @@ html, body{
     top: 5vh;
     font-size: calc(26px + 2vw);
     transform: translate(-50%,0%);
-    color: #7d1009;
+    color: #e42c1f;
     /* text-shadow: 0 0 20px #ffebbc; */
     background: radial-gradient(closest-side, rgba(255,255,255,1), rgba(0,0,0,0));
     min-width: 75%;
