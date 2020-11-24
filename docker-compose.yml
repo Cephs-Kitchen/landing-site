@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  app:
+    build: cephs-citchen
+    ports: 
+      - '3000:3000'
+
+  shoppinglist:
+    image: fallensteed/cephs-shoppinglist
+    depends_on:
+      - 'database'
+    ports: 
+      - '3001:3000'
+
+  shoppinglist_api:
+    image: fallensteed/cephs-shoppinglist-api
+    depends_on:
+      - 'database'
+    ports:
+      - '4001:4001'
+
+  database:
+    image: fallensteed/cephs-db
+    restart: always
+    ports:
+      - '5400:5432'
