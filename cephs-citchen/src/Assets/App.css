@@ -1,3 +1,5 @@
+@import './color-scheme.css';
+
 *, html{
     padding: 0;
     margin: 0;
@@ -14,7 +16,7 @@ html, body, #root{
     top: 5vh;
     font-size: calc(15px + 1.5vw);
     transform: translate(-50%,0%);
-    color: #ac190e;
+    color:  #e42c1f;
     /* text-shadow: 0 0 20px #ffebbc; */
     background: radial-gradient(closest-side, rgba(255,255,255,1), rgba(0,0,0,0));
     min-width: 75%;
@@ -41,7 +43,7 @@ html, body, #root{
 .container{
     height: 100%;
     width: 100%;
-    background-image: url('./Assets/felixantos-chef-pulpo.jpg');
+    background-image: url('./felixantos-chef-pulpo.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -84,4 +86,11 @@ nav p{
 
 .hidden{
     display: none;
+}
+
+iframe{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
 }

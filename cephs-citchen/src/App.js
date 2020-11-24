@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./Assets/App.css";
 import LinkFrame from "./LinkFrame";
 
 class App extends React.Component {
@@ -33,11 +33,11 @@ class App extends React.Component {
                     <LinkFrame source={this.state.frameSource} title={this.state.frameTitle} />
                 </div>
                 <nav>
-                    <p href="./" onClick={this.hideAppContainer}>Home</p>
-                    <p href="./" onClick={() => this.showAppContainer('http://localhost:3001')}>Shopping List</p>
-                    <p href="./" onClick={this.showAppContainer}>Pantry List</p>
-                    <p href="./" onClick={() => this.showAppContainer('http://localhost:3002')}>Recipes</p>
-                    <p href="./" onClick={this.showAppContainer}>Unit Converter</p>
+                    <p onClick={this.hideAppContainer}>Home</p>
+                    <p onClick={() => this.showAppContainer('http://localhost:3001')}>Shopping List</p>
+                    <p onClick={() => this.showAppContainer('http://localhost:3002')}>Pantry List</p>
+                    <p onClick={() => this.showAppContainer('http://localhost:3003')}>Recipes</p>
+                    <p onClick={() => this.showAppContainer('http://localhost:3004')}>Unit Converter</p>
                 </nav>
             </div>
         );
