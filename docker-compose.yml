@@ -37,13 +37,13 @@ services:
     ports:
       - '8000:8000'
 
-  # recipes:
-  #   image: azteckind/cephs-recipe-app
-  #   restart: always
-  #   depends_on:
-  #     - 'database'
-  #   ports:
-  #     - '3003:3000'
+  recipes:
+    image: azteckind/cephs-recipe-app
+    restart: always
+    depends_on:
+      - 'database'
+    ports:
+      - '3003:3000'
 
   units:
     image: ananaso/cephs-unitconverter-app
